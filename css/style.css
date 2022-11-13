@@ -5,6 +5,9 @@ body {
 
 h2 {
     font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
 }
 
 h3 {
@@ -20,7 +23,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 16.5px;
 }
 
 h5 {
@@ -31,20 +34,104 @@ h5 {
     line-height: 24px;
 }
 
-.date-text {
-    text-align: left;
-    margin: 8px;
-}
-
-#card-nav {
+#home-nav {
     background-color: rgba(93, 110, 86, 0.6);
     border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+.home-nav {
+    margin-top: 12px;
+}
+
+
+p {
+    margin-bottom: 0;
+}
+
+.menu-1 {
+    background: #FFFDF8;
+    border: 0.906542px solid #DDDDDD;
+    box-shadow: 0px 1.81308px 3.62617px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 10px;
+    align-content: center;
+}
+
+.menu-2 {
+    background: #FFFDF8;
+    border: 0.906542px solid #DDDDDD;
+    box-shadow: 0px 1.81308px 3.62617px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 10px;
+    align-content: center;
+    height: 78px;
+}
+
+.menu-label {
+    padding-top: 4px;
 }
 
 .hero-img {
-    margin: auto;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.progress-label {
+    box-shadow: 0px 1.81308px 3.62617px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    background-color: #FFD29E;
+    padding: 5px;
+    align-content: center;
+}
+
+#week-progress {
+    background-color: rgba(93, 110, 86, 0.6);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+.divider-text {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.track-category {
+    background: #FFFDF8;
+    border: 0.906542px solid #DDDDDD;
+    box-shadow: 0px 1.81308px 3.62617px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    align-content: center;
+    margin: 0px;
+    text-align: center;
+}
+
+.progress-bar {
+    font-size: 8px;
+    background: #5A786D;
+}
+
+.progressbar {
+    padding: 10px;
+    color: #FFFDFA;
+}
+
+.progress-cat p {
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+.toolbar {
+    background-color: #FFFDFA;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+    .toolbar {
+        display: none;
+    }
 }
