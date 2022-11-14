@@ -1,6 +1,13 @@
 body {
     background-color: #FFFDFA;
     color: #222222;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 h2 {
