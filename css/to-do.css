@@ -1,0 +1,35 @@
+.home-nav {
+    margin-top: -10px;
+}
+
+.mid-priority {
+    background-color: #88B9B1;
+}
+
+.low-priority {
+    background-color: #F7EFC9;
+}
+
+.form-check-input {
+    background-color: transparent;
+}
+
+.progress-label {
+    padding-left: 10px;
+}
+
+img .expand-task {
+    margin-left: 100px;
+}
+
+#completed-tasks {
+    background-color: rgba(222, 222, 222, 0.56);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+.progress-complete {
+    background: transparent;
+    color: gray;
+}

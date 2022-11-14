@@ -7,7 +7,7 @@ h2 {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     line-height: 24px;
-
+    margin-bottom: 0%;
 }
 
 h3 {
@@ -44,7 +44,6 @@ h5 {
 .home-nav {
     margin-top: 12px;
 }
-
 
 p {
     margin-bottom: 0;
@@ -94,7 +93,7 @@ p {
 }
 
 .divider-text {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
 }
 
 .track-category {
@@ -134,4 +133,9 @@ p {
     .toolbar {
         display: none;
     }
+}
+
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
 }
