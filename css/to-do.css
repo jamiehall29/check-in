@@ -29,7 +29,21 @@ img .expand-task {
     margin: 10px;
 }
 
-.progress-complete {
-    background: transparent;
+.progress-complete-1 {
+    background-color: rgba(252, 203, 130, 0.5);
     color: gray;
+}
+
+.progress-complete-2 {
+    background: rgba(136, 185, 177, 0.5);
+    color: gray;
+}
+
+.progress-complete-3 {
+    background: rgba(247, 239, 201, 0.5);
+    color: gray;
+}
+
+.todo-hero img {
+    border-radius: 8px;
 }

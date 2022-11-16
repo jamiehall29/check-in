@@ -1,7 +1,6 @@
 body {
     background-color: #FFFDFA;
     color: #222222;
-
 }
 
 a {
@@ -130,10 +129,13 @@ p {
 
 .toolbar {
     background-color: #FFFDFA;
-    position: fixed;
-    left: 0;
+    position: static;
     bottom: 0;
+    left: 0;
+    padding: 10px;
+    gap: 10px;
     width: 100%;
+    overflow-y: scroll;
 }
 
 @media screen and (min-width: 550px) {
@@ -145,4 +147,11 @@ p {
 .nav-item {
     margin-left: 25px;
     margin-right: 25px;
+}
+
+#daily-affirmation {
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+
 }

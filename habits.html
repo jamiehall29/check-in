@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>habits: check-in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/to-do.css">
+    <link rel="stylesheet" href="css/habits.css">
+</head>
+
+<body>
+
+    <!--hero-->
+
+    <section id="todo-page">
+        <div class="container mt-3 pt-3 pb-3">
+            <div class="row">
+                <div class="col">
+                    <div class="arrow-back">
+                        <a href="index.html"><img src="/images/back arrow.svg" alt="back arrow"></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="divider-text">
+                        <h2 class="text-center">Habits</h2>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="hero-img mb-6">
+        <img src="images/habits-heroimg.png" class="img-fluid" alt="hero visual">
+    </div>
+
+    <!--home-->
+
+    <section id="this-week">
+        <div class="container-fluid mt-2 mb-2">
+            <h2 class="habit-date">Monday, October 31</h2>
+        </div>
+    </section>
+
+    <!--PLUS MINUS HABIT SECTION-->
+
+    <section id="week-progress">
+        <div class="container-fluid p-2">
+            <div class="row">
+                <div class="col mt-2 mb-2">
+                    <div class="habit-log">
+                        <img src="images/carbon_subtract-alt.svg" alt="no habit">
+                        <p>Drink 60ml water</p>
+                        <img src="images/carbon_add-alt.svg" alt="yes habit">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-2 mb-2">
+                    <div class="habit-log">
+                        <img src="images/carbon_subtract-alt.svg" alt="no habit">
+                        <p>Morning stretches</p>
+                        <img src="images/carbon_add-alt.svg" alt="yes habit">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-2 mb-2">
+                    <div class="habit-log">
+                        <img src="images/carbon_subtract-alt.svg" alt="no habit">
+                        <p>20 min reading</p>
+                        <img src="images/carbon_add-alt.svg" alt="yes habit">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-2 mb-2">
+                    <div class="habit-log">
+                        <img src="images/carbon_subtract-alt.svg" alt="no habit">
+                        <p>Meds</p>
+                        <img src="images/carbon_add-alt.svg" alt="yes habit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PROGRESS SCORES-->
+
+    <section id="tasks-completed">
+        <div class="container-fluid mt-2 mb-2">
+            <div class="score-text">
+                <h2 class="divider-text">My progress</h2>
+                <p class="score-info">scores refresh weekly</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="completed-tasks">
+        <div class="container-fluid p-2 pb-0 week-progress">
+
+            <div class="row">
+                <div class="point-count">
+                    <p>120 pts</p>
+                </div>
+                <div class="col">
+                    <div class="progress prog-bar-1 mt-2 mb-2 bg-light" style="height:35px;">
+                        <div class="progress-bar yes-prog-1 p-2" role="progressbar" style="width: 95%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="bar-content">
+                                <div class="bar-label">
+                                    <p>Drink 60ml water</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-points">
+                    <div class="point-totals">
+                        <p>goal: 125</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="point-count">
+                    <p>51 pts</p>
+                </div>
+                <div class="col">
+                    <div class="progress prog-bar-2 mt-2 mb-2 bg-light" style="height:35px;">
+                        <div class="progress-bar yes-prog-2 p-2" role="progressbar" style="width: 48%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="bar-content">
+                                <div class="bar-label">
+                                    <p>Morning stretches</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-points">
+                    <div class="point-totals">
+                        <p>goal: 125</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="point-count">
+                    <p>81 pts</p>
+                </div>
+                <div class="col">
+                    <div class="progress prog-bar-3 mt-2 mb-2 bg-light" style="height:35px;">
+                        <div class="progress-bar yes-prog-3 p-2" role="progressbar" style="width: 82%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="bar-content">
+                                <div class="bar-label">
+                                    <p>20 min reading</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-points">
+                    <div class="point-totals">
+                        <p>goal: 125</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="point-count">
+                    <p>75 pts</p>
+                </div>
+                <div class="col">
+                    <div class="progress prog-bar-4 mt-2 mb-2 bg-light" style="height:35px;">
+                        <div class="progress-bar yes-prog-4 p-2" role="progressbar" style="width: 70%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="bar-content">
+                                <div class="bar-label">
+                                    <p>Take meds</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-points">
+                    <div class="point-totals">
+                        <p>goal: 125</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer nav-->
+
+    <div class="container toolbar" style="background:#FFFDF8; border: 0.906542px solid #DDDDDD;">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"><img src="/images/home.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="/images/affirm.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="/images/profile.svg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
